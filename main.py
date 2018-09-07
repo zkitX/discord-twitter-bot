@@ -45,7 +45,7 @@ class StdOutListener(StreamListener):
             if 'IncludeRetweet' in data_discord:  # retweets...
                 if not data_discord['IncludeRetweet']:
                     if 'retweeted_status' in data:
-                        worth_posting = False  # retweet
+                        worth_posting = True  # retweet
 
             if not worth_posting:
                 continue
