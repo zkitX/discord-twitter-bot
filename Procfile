@@ -1,1 +1,1 @@
-twitterbot: bash python main.py
+twitterbot: python main.py
